@@ -8,14 +8,15 @@ Just place the cgi-bin folder from this repo in a directory, then run the http.s
 
 If you have the `qrcode` Python library installed it will render a QR code using your machine's .local address to make it simpler to access from other devices.
 
+![Screenshot](/screenshot.png?raw=true "Screenshot")
 
-##### Why?!??
+### Why?!??
 
 Who doesn't want to write cgi scripts in 2023? Kids these days have no idea how the world used to work.
 
 But actually–the http.server module is really handy and very widely available. Sometimes you just want to drop some files to another machine.
 
-##### It doesn't work
+### It doesn't work
 
 Ensure your user has execute permissions on the cgi file.
 
