@@ -1,6 +1,6 @@
 # Python http.server File Upload
 
-This adds a simple file upload page that works with the Python standard library http.server module, using CGI. No modules or installations required.
+This repo contains a simple file upload page that works with the Python standard library http.server module, using CGI. No modules or installations required.
 
 Just place the cgi-bin folder from this repo in a directory, then run the http.server command with the `--cgi` flag from that directory, and visit http://localhost:8000/cgi-bin/pyupload.cgi
 
