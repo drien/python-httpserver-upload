@@ -1,5 +1,7 @@
 # Python http.server File Upload
 
+> **Note**: CGI has been removed from the Python standard library as of Python 3.13. To use this with Python versions >= 3.13, install the `legacy-cgi` module: https://pypi.org/project/legacy-cgi/
+
 This repo contains a simple file upload page that works with the Python standard library http.server module, using CGI. No modules or installations required.
 
 Just place the cgi-bin folder from this repo in a directory, then run the http.server command with the `--cgi` flag from that directory, and visit http://localhost:8000/cgi-bin/pyupload.cgi
